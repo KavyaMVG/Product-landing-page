@@ -37,4 +37,4 @@ To fix a bug or enhance an existing module, follow these steps:
 
 ### Bug / Feature Request
 
-If you find a bug or to request a new feature, kindly open an issue [here](https://github.com/github-username/repo-name/issues/new).
+If you find a bug or to request a new feature, kindly open an issue [here](https://github.com/kavyamvg/product-landing-page/issues/new).
