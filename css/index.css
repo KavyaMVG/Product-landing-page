@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Fredoka:wght@300;400;700&family=Merriweather:wght@300&family=Montserrat:ital@1&family=Oswald&family=Poppins:wght@300;400&family=Red+Rose&display=swap');
+
+
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.nav-items{
+    display: flex;
+    width: 30%;
+    justify-content:space-between;
+}
+.nav-item{
+    font-size: 1rem;
+    color:#808080;
+    font-weight: 400;
+}
+.nav-item:first-child{
+    color: hsl(12deg 100% 60%);
+}
+.new-product{
+    padding: 2rem;
+    font-size: 2.3rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.new-product-logo{
+    width: 50px;
+
+}
+.sub-heading{
+    font-size:4rem;
+    padding: 0 1rem;  
+}
+.intro-section{
+    display: flex;
+
+}
+.sub-headlines{
+    padding: 0rem 3rem;
+}
+.sub-headline{
+    padding:5px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.plus-icon{
+    background-color: hsl(12deg 100% 60%);
+    border-radius: 50%;
+    width: 20px;
+    margin-right: .5rem;
+    margin-top: 1rem;
+    padding: .25rem;
+}
+.headphone-div{
+    position: relative;
+}
+.headphone-img{
+    width: 500px;
+    height: 450px;
+}
+.discount-content{
+    text-align: center;
+    position: absolute;
+    top:61%;
+    left: -3%;
+    color: #ffffff;
+
+}
+.discount{
+    position: absolute;
+    bottom: 10%;
+    left: -10%;
+}
+.discount-percent{
+    font-size: 4rem;
+}
+.text{
+    padding:2rem;
+    padding-right: 5rem;
+    font-size: 1rem;
+    color:#808080;
+}
+.action-btns{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+.action-btn{
+    padding:.8rem 1.5rem;
+    background-color: hsl(12deg 100% 60%);
+    color: #ffffff;
+    font-size: 1.1rem;
+    border: 0;
+    border-radius: 40px;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.dot{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+.yellow-dot{
+    background-color: yellow;
+}
+.tomato-dot{
+    background-color: tomato;
+}
+.black-dot{
+    background-color: #000000;
+}
+.chart-btn{
+    display: block;
+    margin: 2rem auto;
+}
